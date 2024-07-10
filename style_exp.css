@@ -1,0 +1,104 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation Styles */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.nav .link ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav .link ul a {
+    text-decoration: none;
+    color: #2a2a2a;
+    font-weight: 600;
+    transition: color 300ms ease-in-out;
+}
+
+.nav .link ul a:hover, .nav .link ul a.active {
+    color: #f4637b;
+}
+
+/* Experience Section Styles */
+.experience {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.experience .container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.experience h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.job {
+    margin-bottom: 40px;
+}
+
+.job h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.job .date {
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.job .company {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.job .description {
+    text-align: left;
+    line-height: 1.6;
+}
+
+
+/* Footer Styles */
+footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+footer .social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+footer .social a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #2a2a2a;
+    transition: color 300ms ease-in-out;
+}
+
+footer .social a:hover {
+    color: #f4637b;
+}
+
+footer p {
+    color: #2a2a2a;
+    font-size: 20px;
+}
